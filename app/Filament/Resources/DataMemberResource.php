@@ -62,7 +62,7 @@ class DataMemberResource extends Resource
                 TextColumn::make('role')->sortable(),
                 TextColumn::make('asal')->sortable(),
                 TextColumn::make('tgl_lahir')->label('Tanggal Lahir')->date(),
-                TextColumn::make('no_hp')->label('No. HP'),
+                TextColumn::make('no_hp')->label('Nomor HP'),
                 TextColumn::make('email')->searchable(),
             ])
             ->filters([
